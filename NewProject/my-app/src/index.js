@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import App from './components/App'; //Чисто для учебной практики
-// import App from './components/Practicle/App'; //Если подключить это и выключить 3 строку - будет аналог инсты
-import App from './components/ControlPoint1/App'; //КТ1
+// import App from './components/Practicle/App'; //Если подключить это - будет аналог инсты (практическая верстка)
+import App from './components/ControlPoint1/App'; //КТ1 (верстка сайта)
 
 
 // Задача 3
