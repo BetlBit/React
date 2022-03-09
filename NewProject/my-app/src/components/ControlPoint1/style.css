@@ -1,0 +1,118 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+	list-style-type: none;
+}
+li a {
+	display: block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover:not(.active) {
+	background-color: rgb(211, 211, 211);
+}
+
+a{
+	height: 20px;
+}
+
+a#RegistrButton {
+	display: inline-block;
+	color: rgb(0, 0, 0);
+	font-weight: 700;
+	text-decoration: none;
+	padding: .5em 2em;
+	border: 1px solid;
+	border-radius: 50px;
+} 
+
+a#RegistrButton2 {
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+	background:rgb(0, 0, 0);
+	text-decoration: none;
+	padding: .5em 2em;
+	border: 1px solid;
+	border-radius: 50px;
+} 
+
+#Header {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 25px;
+}
+
+#Reg{
+	display: flex;
+	justify-content: space-evenly;
+	width: 250px;
+}
+
+.ContentMain {
+	margin: auto;
+	width: 1400px;
+	height: 600px;
+	background: linear-gradient(to top right, rgba(255, 255, 255, 35), rgba(255, 255, 255, 50), rgba(255, 181, 251, 50), rgba(174, 104, 255, 50));
+	margin-top: 20px;	
+	border-radius: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+h1 {
+	font-size: 60px;
+	font-family: 'Caveat', cursive;
+}
+
+div#textH1{
+	display: block;
+	float: left;
+	padding-top: 200px;
+	padding-left: 150px;
+}
+
+#MainArt{	
+	display: block;
+	height: 500px;
+	width: 280px;
+	float: right;
+	padding-top: 70px;
+	padding-right: 250px;
+}
+
+a#Yes {
+	display: inline-block;
+	color: rgb(0, 0, 0);
+	font-weight: 700;
+	text-decoration: none;
+	padding: .5em 2em;
+	border-radius: 50px;
+	outline: none;
+	float: left;
+	margin-top: 330px;
+	margin-left: -350px;
+	text-decoration: none;
+} 
+#Yes:hover,
+#Yes:active {
+	background-color: rgba(255, 255, 255, 0);
+	color: rgba(0, 0, 0, 0.5);
+	transition: background-color 0.5s ease-in, color 0.3s ease-in;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Shadows+Into+Light&display=swap');
+
+a#Yes {
+	font-size: 20px;
+	font-family: 'Caveat', cursive;
+	font-family: 'Shadows Into Light', cursive;
+}
