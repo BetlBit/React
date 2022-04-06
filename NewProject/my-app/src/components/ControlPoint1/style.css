@@ -116,3 +116,20 @@ a#Yes {
 	font-family: 'Caveat', cursive;
 	font-family: 'Shadows Into Light', cursive;
 }
+
+body {
+	color: #282c34;
+	background-color: #fff;
+}
+
+body[data-theme="dark"] {
+	color: rgb(0, 0, 0);
+	background-color: #fdf9ff;
+}
+
+.container {
+	display: block;
+	flex-direction: column;
+	align-content: center;
+	text-align: center;
+}
